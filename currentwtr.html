@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+<title>Current weather</title>
+<link rel="icon" href="cloudlogo.png" type="image/x-icon">
+</head>
+
+<link rel="stylesheet" href="main1.css" type="text/css">
+
+<body>
+    <div class="title">
+        <li class="heading">The Weather App</li> 
+     </div>
+     <div class="taskbar">
+         <ul>
+             <a href="index.html"><li class="one">Permission</li></a>
+             <!-- <a href="currentwtr.html" class="current"><li class="two">Your Weather</li></a> -->
+             <a href="searchwtr.html" class="search"><li class="three">Search Weather</li></a> 
+         </ul>
+     </div>
+     <div class="fetched">
+        <ul>
+            <li id="city"> name of city </li> 
+               <li id="temp">temperature</li>
+        </ul>
+       
+     </div>
+     <div class="currentcont">
+        <div class="imgdetails">
+                <img id="wi" src="./images/winds.png" alt="image">
+                <img id="hu" src="./images/humiditys.png" alt="image">
+                <img id="cl" src="./images/clouds.png" alt="image">
+        </div>
+        <div class="details">
+            <ul>
+                <li class="onee">Wind:</li>
+                <li class="twoo">Humidity:</li>
+                <li class="threee">Clouds:</li>
+            </ul>
+        </div>
+     </div>
+
+</body>
+<script>
+     const urlParms= new URLSearchParams(window.location.search)
+     const cityparms=urlParms.get('city')
+     const tempparms=urlParms.get('temp')
+     const windparms=urlParms.get('wind')
+     const humidityparms=urlParms.get('humidity')
+     const cloudsparms=urlParms.get('clouds')
+     const temp=document.querySelector('#temp')
+     const cityname=document.querySelector('#city')
+     const wind=document.querySelector('.onee')
+     const humidity=document.querySelector('.twoo')
+     const clouds=document.querySelector('.threee')
+
+     cityname.innerHTML=cityparms
+     temp.innerHTML=tempparms+"°C"
+     wind.innerHTML="Wind:"+windparms+"m/s"
+     humidity.innerHTML="Humidity:"+humidityparms+"%"
+     clouds.innerHTML="Clouds:"+cloudsparms+"%"
+
+   
+</script>
+</html>

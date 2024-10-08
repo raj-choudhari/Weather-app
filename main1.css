@@ -1,0 +1,140 @@
+body{
+    background-image: url(./images/bganimated.png);
+    background-size: cover ;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.title{
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    height: 50px;
+    border-radius:10px;
+    }
+    .title .heading{
+    list-style: none;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    }
+.taskbar li{
+    display: inline;
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     padding: 20px 71px;
+     border-radius: 10px;
+     background-color: hsla(0, 0%, 84%, 0.2);
+     border: 1px solid #0066b2;
+     transition-duration: 1s;
+     
+ }
+ .taskbar li:hover{
+     
+     background-color: white;
+     color: black;
+     border: none;
+ }
+ 
+ .one{
+  position:relative;
+  margin-right: 200px;
+  
+ }
+ a .two{
+    background-color: white;
+ color: black;
+ }
+ .three{
+ position:relative;
+ margin-left: 200px;
+ }
+ a{
+     color: black;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ 
+ 
+ ul{
+ 
+     text-align: center;
+     list-style: none;
+     position: relative;
+     margin-top: 60px;
+ }
+
+ .fetched #city{
+    position: relative;
+    margin-top: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+ }
+
+ .fetched #temp{
+    position: relative;
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+ }
+
+ .currentcont .imgdetails img{
+    display: inline;
+    width: 100px;
+    height: 100px;
+    background-color: hsla(0, 0%, 84%, 0.4);
+    border-radius: 20px;
+ }
+
+
+.details ul li{
+    display: inline;
+    font-weight: bold;
+    color: white;
+    background-color:rgb(34, 34, 34);
+    padding: 10px;  
+    border-radius: 15px;
+}
+
+.details ul{
+        position: absolute;
+        top: 69%;/* top wale div se dur   */
+        left: 50.1%;/*  yeh jaruri hai cuz left pe chipkega */
+        transform: translate(-50%, -50%);
+}
+
+.imgdetails #hu{
+    position: absolute;
+    top: 67%;/* top wale div se dur   */
+    left: 51.1%;/*  yeh jaruri hai cuz left pe chipkega */
+    transform: translate(-50%, -50%);
+}
+.imgdetails #wi{
+    position: absolute;
+    top: 67%;/* top wale div se dur   */
+    left: 37.1%;/*  yeh jaruri hai cuz left pe chipkega */
+    transform: translate(-50%, -50%);
+}
+.imgdetails #cl{
+    position: absolute;
+    top: 67%;/* top wale div se dur   */
+    left: 65.1%;/*  yeh jaruri hai cuz left pe chipkega */
+    transform: translate(-50%, -50%);
+}
+
+.onee{
+   position: relative;
+   margin-right: 100px;
+   }
+.twoo{
+position: relative;
+margin-right: 30px;
+}
+.threee{
+position: relative;
+margin-left: 80px;
+   }
+

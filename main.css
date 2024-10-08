@@ -1,0 +1,114 @@
+body{
+    background-image: url(./images/bganimated.png);
+    background-size: cover ;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.title{
+background-color: rgb(0, 0, 0);
+box-sizing: border-box;
+height: 50px;
+border-radius:10px;
+}
+.title .heading{
+list-style: none;
+text-align: center;
+color: white;
+padding: 15px;
+}
+
+.taskbar li{
+   display: inline;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 20px 71px;
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 84%, 0.2);
+    border: 1px solid #0066b2;
+    transition-duration: 1s;
+    
+}
+.taskbar li:hover{
+    
+    background-color: white;
+    color: black;
+    border: none;
+}
+
+a{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a .one{
+ position:relative;
+ margin-right: 200px;
+ background-color: white;
+ color: black;
+
+}
+
+.three{
+position:relative;
+margin-left: 200px;
+}
+
+
+
+
+ul{
+
+    text-align: center;
+    list-style: none;
+    position: relative;
+    margin-top: 60px;
+}
+
+img{
+    background-color: hsla(0, 0%, 90%, 0.5);
+    border-radius: 30px;
+} 
+
+.btn{ 
+    
+    background-color: #5072A7;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 10px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    width: 110px;
+    transition: width 0.5s;
+}
+
+button{
+    position: absolute;
+    top: 75%;/* top wale div se dur   */
+    left: 50.1%;/*  yeh jaruri hai cuz left pe chipkega */
+    transform: translate(-50%, -50%);
+}
+
+.btn:hover{
+    cursor: pointer;
+    width: 170px;
+    opacity: 1;
+}
+
+
+.loc img {
+    width: 15%;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 120px;
+
+}
+
+
+

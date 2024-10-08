@@ -1,0 +1,85 @@
+body{
+    background-image: url(./images/bganimated.png);
+    background-size: cover ;
+    font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.title{
+    background-color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    height: 50px;
+    border-radius:10px;
+    }
+    .title .heading{
+    list-style: none;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    }
+.taskbar li{
+    display: inline;
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+     padding: 20px 71px;
+     border-radius: 10px;
+     background-color: hsla(0, 0%, 84%, 0.2);
+     border: 1px solid #0066b2;
+     transition-duration: 1s;
+     
+ }
+ .taskbar li:hover{
+     
+     background-color: white;
+     color: black;
+     border: none;
+ }
+ 
+ .one{
+  position:relative;
+  margin-right: 200px;
+  
+ }
+ 
+ a .three{
+ position:relative;
+ margin-left: 200px;
+ background-color: white;
+ color: black;
+ }
+ a{
+     color: black;
+     font-weight: bold;
+     text-decoration: none;
+ }
+ 
+ 
+ ul{
+ 
+     text-align: center;
+     list-style: none;
+     position: relative;
+     margin-top: 60px;
+ }
+
+ .searchtab{
+    position: absolute; 
+    top: 50%;
+    left: 43%;
+ }
+ .searchtab input{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-right: 10px;
+ }
+ 
+ .searchtab img{
+    position: absolute;
+
+
+    width: 30px;
+    height: 30px;
+ }
